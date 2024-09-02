@@ -1,7 +1,43 @@
-* {
+/* * {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+	margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+	list-style: none;
+	padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+img {
+	display: block;
+	max-inline-size: 100%;
+}
+
+html {
+	font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -193,6 +229,9 @@
 }
 
 .info__img {
+	width: 615px;
+	height: 350px;
+	object-fit: cover;
 	position: absolute;
 	top: 93px;
 	left: -83px;
@@ -229,6 +268,10 @@
 	height: 118px;
 	background-color: #f9bf3b;
 	border-radius: 100%;
+}
+
+.skills__img {
+	max-width: 60px;
 }
 
 .skills__desc {
@@ -268,6 +311,9 @@
 }
 
 .webinar__img {
+	width: 500px;
+	height: 250px;
+	object-fit: cover;
 	display: block;
 	margin: 0 auto;
 }
